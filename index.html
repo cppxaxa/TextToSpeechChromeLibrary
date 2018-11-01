@@ -1,0 +1,15 @@
+<script src="js/TextToSpeechChrome.js"></script>
+<script src="js/jquery.min.js"></script>
+
+<script>
+
+VoiceInit();
+
+function Run(){
+	console.log(VoiceInfo());
+	Say(1, 'Hello World');
+}
+
+setTimeout(Run, 1000);
+
+</script>
